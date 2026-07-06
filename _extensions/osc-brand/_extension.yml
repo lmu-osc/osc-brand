@@ -6,3 +6,6 @@ contributes:
   metadata:
     project:
       brand: brand.yml
+  formats:
+    html:
+      theme: [lmu-osc-custom.scss]
