@@ -126,10 +126,35 @@ fibonacci <- function(n) {
 
 ## Images
 
+Brand images can be accessed with the `{{</* brand logo NAME */>}}` shortcode. Available options include:
+
+* **Icon, default, dark**: these are the underlying image labels. However, shoull use the superset of these:
+* **Small, medium, large**: small maps to the icon (or favicon), and medium and large are currently set to use the General Logo (and to swap the colors accordingly with light/dark mode--this is the main motivator to use these labels instead of the other ones!)
+
 ### Favicon
 
-![](_extensions/osc-brand/lmu-osc-favicon.jpg)
+```markdown
+{{</* brand logo small */>}}
+```
+
+{{< brand logo small >}}
 
 ### General Logo
 
-![](_extensions/osc-brand/lmu-osc-logo.svg)
+#### Medium
+
+```markdown
+{{</* brand logo medium */>}}
+```
+
+{{< brand logo medium >}}
+
+#### Large
+
+The large logo is currently the same, as well.
+
+```markdown
+{{</* brand logo large */>}}
+```
+
+{{< brand logo large >}}

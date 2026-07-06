@@ -53,8 +53,13 @@ logo:
     default:
       path: lmu-osc-logo.svg
       alt: "LMU Open Science Center logo"
+    dark:
+      path: lmu-osc-logo-dark.svg
+      alt: "LMU Open Science Center logo"
   small: icon
   medium:
     light: default
-    dark: default
-  large: default
+    dark: dark
+  large:
+    light: default
+    dark: dark
