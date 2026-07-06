@@ -9,5 +9,5 @@ contributes:
   formats:
     html:
       theme:
-        light: [flatly, lmu-osc-custom.scss]
-        dark: [darkly, lmu-osc-custom.scss]
+        light: [flatly, brand, lmu-osc-custom.scss]
+        dark: [darkly, brand, lmu-osc-custom.scss]
