@@ -44,3 +44,17 @@ color:
   danger:
     light: lmu-red
     dark: lmu-red
+
+logo:
+  images:
+    icon:
+      path: lmu-osc-favicon.jpg
+      alt: "LMU Open Science Center open book icon"
+    default:
+      path: lmu-osc-logo.svg
+      alt: "LMU Open Science Center logo"
+  small: icon
+  medium:
+    light: default
+    dark: default
+  large: default

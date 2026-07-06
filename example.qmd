@@ -123,3 +123,13 @@ fibonacci <- function(n) {
   }
 }
 ```
+
+## Images
+
+### Favicon
+
+![](_extensions/osc-brand/lmu-osc-favicon.jpg)
+
+### General Logo
+
+![](_extensions/osc-brand/lmu-osc-logo.svg)
