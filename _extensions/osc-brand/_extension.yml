@@ -1,6 +1,9 @@
 title: osc-brand
 author: Patrick Callahan
 version: 1.0.0
+url: https://github.com/lmu-osc/osc-brand
+description: LMU Open Science Center custom brand.yml extension with an HTML format on top
+license: MIT
 quarto-required: ">=1.9.0"
 contributes:
   metadata:

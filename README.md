@@ -41,3 +41,4 @@ quarto preview
 ```
 
 
+*The LMU OSC logos are trademarks and are not granted under this license — they may only be used in accordance with LMU brand guidelines.*
