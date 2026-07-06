@@ -1,0 +1,6 @@
+*.html
+*.pdf
+*_files/
+/.quarto/
+_site/
+.posit/assistant
