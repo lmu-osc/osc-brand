@@ -8,4 +8,6 @@ contributes:
       brand: brand.yml
   formats:
     html:
-      theme: [lmu-osc-custom.scss]
+      theme:
+        light: [flatly, lmu-osc-custom.scss]
+        dark: [darkly, lmu-osc-custom.scss]
