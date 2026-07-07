@@ -85,3 +85,19 @@ typography:
     color: secondary
   monospace:
     family: "Fira Code"
+    # size:
+    # weight:
+  monospace-inline:
+    family: "Fira Code"
+    # color:
+    # background-color:
+  monospace-block:
+    family: "Fira Code"
+    # line-height:
+    # color:
+    # background-color:
+  # link:
+  #   weight:
+  #   color:
+  #   background-color:
+  #   decoration:
