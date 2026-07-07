@@ -21,13 +21,11 @@ format: osc-brand-html
 
 ```bash
 quarto add lmu-osc/osc-brand
-quarto add lmu-osc/osc-tutorial
 ```
 
 This will install the extensions under the `_extensions` subdirectory.
 If you're using version control, you will want to check in this directory.
 
-**Yes, these are two separate extensions in one repo! The osc-tutorial extension, however, depends on the osc-brand extension and they must be installed together if you want to use the `osc-tutorial-html` format. The osc-brand extension, however, is independent of the other extension.**
 
 ## Using
 
@@ -35,7 +33,7 @@ This extension installs a [brand.yml](https://posit-dev.github.io/brand-yml/) co
 
 ## Example
 
-Here is the source code for a minimal example: [example.qmd](example.qmd). To see it in action, clone this repo and preview:
+Source code for the templates in action can be found in the `example-*.qmd` files. To see it in action, clone this repo and preview:
 
 ```bash
 git clone git@github.com:lmu-osc/osc-brand.git
@@ -43,5 +41,6 @@ cd osc-brand
 quarto preview
 ```
 
+Or just open the GitHub Pages page for this repo.
 
 *The LMU OSC logos are trademarks and are not granted under this license — they may only be used in accordance with LMU brand guidelines.*
