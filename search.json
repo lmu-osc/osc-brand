@@ -18,7 +18,7 @@
     "href": "example-osc-tutorial.html",
     "title": "LMU Open Science Center Tutorial Examples",
     "section": "",
-    "text": "Important\n\n\n\nThere are essentially no differences between the osc-brand-html and osc-tutorial-html templates, at least very few if any that you will notice on this page alone. The osc-tutorial-html is just slightly more opinonated with some presets e.g. a pre-activated Table of Contents (TOC) and some code tools/overflow options."
+    "text": "Important\n\n\n\nThere are essentially no differences between the osc-brand-html and osc-brand-html+tutorial templates, at least very few if any that you will notice on this page alone. The osc-brand-html+tutorial is just slightly more opinonated with some presets e.g. a pre-activated Table of Contents (TOC) and some code tools/overflow options."
   },
   {
     "objectID": "example-osc-tutorial.html#brand.yml-extension",
