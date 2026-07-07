@@ -1,4 +1,16 @@
 # minimal brand.yml enabling dark mode
+meta:
+  name:
+    full: LMU Open Science Center
+    short: OSC
+  link:
+    home: https://www.osc.lmu.de/
+    github: https://github.com/lmu-osc
+  description: |
+    Home of open science praxis at Ludwig-Maximilian Universität München.
+  founded: 2019
+  author: Pat Callahan
+
 # replace with your brand colors, logos, and typography!
 color:
   palette:
