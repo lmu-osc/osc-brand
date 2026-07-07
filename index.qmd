@@ -1,0 +1,9 @@
+---
+title: "`osc-brand` Quarto Extension"
+---
+
+This extension (or possibly later extensions in a single repo) is intended to centralize and simplify the branding and templating we use for our Quarto-based projects. 
+
+Currently, just our tutorials and our core branding is targeted. Ideally, we will later expand to slides, PowerPoints, and other templates.
+
+The current extension makes [`osc-brand-html`](example-osc-base.qmd) and [`osc-brand-html+tutorial`](example-osc-tutorial.qmd) formats available. They are quite similar except the second is more specific to our website needs for our tutorials.
