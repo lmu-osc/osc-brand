@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://lmu-osc.github.io/osc-brand/example.html</loc>
-    <lastmod>2026-07-07T11:38:59.599Z</lastmod>
+    <loc>https://lmu-osc.github.io/osc-brand/example-osc-base.html</loc>
+    <lastmod>2026-07-07T12:51:40.933Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lmu-osc.github.io/osc-brand/example-osc-tutorial.html</loc>
+    <lastmod>2026-07-07T12:51:40.933Z</lastmod>
   </url>
   <url>
     <loc>https://lmu-osc.github.io/osc-brand/LICENSE.html</loc>
-    <lastmod>2026-07-07T11:38:59.598Z</lastmod>
+    <lastmod>2026-07-07T12:51:40.932Z</lastmod>
   </url>
 </urlset>
