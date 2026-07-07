@@ -63,3 +63,25 @@ logo:
   large:
     light: default
     dark: dark
+
+# https://www.lmu.de/de/die-lmu/struktur/zentrale-universitaetsverwaltung/presse-und-kommunikation-puk/lmu-brand-guide/designgrundsaetze/schrift/
+# Compatil is the official font, but license limited. Online content should use Roboto, and other software e.g. presentations use Arial
+typography:
+  fonts:
+    - family: Roboto
+      source: google
+    - family: Arial
+      source: google
+    - family: Fira Code
+      source: google
+  base:
+    family: "Roboto, Arial"
+    # size:
+    # line-height:
+    # weight:
+    # style:
+  headings:
+    family: "Roboto, Arial"
+    color: secondary
+  monospace:
+    family: "Fira Code"
