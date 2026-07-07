@@ -68,13 +68,16 @@ logo:
     dark:
       path: lmu-osc-logo-dark.svg
       alt: "LMU Open Science Center logo"
+    large:
+      path: lmu-osc-logo-large.jpg
+      alt: "LMU Open Science Center logo, large"
   small: icon
   medium:
     light: default
     dark: dark
   large:
-    light: default
-    dark: dark
+    light: large
+    dark: large
 
 # https://www.lmu.de/de/die-lmu/struktur/zentrale-universitaetsverwaltung/presse-und-kommunikation-puk/lmu-brand-guide/designgrundsaetze/schrift/
 # Compatil is the official font, but license limited. Online content should use Roboto, and other software e.g. presentations use Arial

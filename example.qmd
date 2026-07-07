@@ -152,9 +152,11 @@ Brand images can be accessed with the `{{</* brand logo NAME */>}}` shortcode. A
 
 {{< brand logo medium >}}
 
+Note that if you switch to dark mode, the "LMU Open Science Center" text switches to white. This functions not because the actual text color is changing, but because a different image is swapped in. That is, the the `medium` logo has a light mode and dark mode image defined.
+
 ##### Large
 
-The large logo is currently the same, as well.
+The large logo is essentially the same, but without a dark mode option available at this time.
 
 ```markdown
 {{</* brand logo large */>}}
