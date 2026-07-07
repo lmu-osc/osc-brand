@@ -1,9 +1,14 @@
 ---
-title: LMU Open Science Center Brand Examples
-format: osc-brand-html
-code-tools: true
-code-overflow: wrap
+title: LMU Open Science Center Tutorial Examples
+format: osc-tutorial-html
 ---
+
+
+::: {.callout-important}
+
+There are essentially no differences between the `osc-brand-html` and `osc-tutorial-html` templates, at least very few if any that you will notice on this page alone. The `osc-tutorial-html` is just slightly more opinonated with some presets e.g. a pre-activated Table of Contents (TOC) and some code tools/overflow options.
+
+:::
 
 ## brand.yml extension
 

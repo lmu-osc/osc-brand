@@ -1,0 +1,17 @@
+title: osc-tutorial
+author: Patrick Callahan
+version: 1.0.0
+url: https://github.com/lmu-osc/osc-brand
+description: OSC tutorial HTML format, requiring the osc-brand extension
+license: MIT
+quarto-required: ">=1.9.0"
+contributes:
+  formats:
+    html:
+      theme:
+        light: [flatly, brand, ../osc-brand/lmu-osc-custom.scss]
+        dark: [darkly, brand, ../osc-brand/lmu-osc-custom.scss]
+      toc: true
+      code-tools: true
+      code-overflow: wrap
+      code-link: true

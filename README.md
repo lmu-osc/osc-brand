@@ -21,10 +21,13 @@ format: osc-brand-html
 
 ```bash
 quarto add lmu-osc/osc-brand
+quarto add lmu-osc/osc-tutorial
 ```
 
-This will install the extension under the `_extensions` subdirectory.
+This will install the extensions under the `_extensions` subdirectory.
 If you're using version control, you will want to check in this directory.
+
+**Yes, these are two separate extensions in one repo! The osc-tutorial extension, however, depends on the osc-brand extension and they must be installed together if you want to use the `osc-tutorial-html` format. The osc-brand extension, however, is independent of the other extension.**
 
 ## Using
 
