@@ -26,7 +26,7 @@ contributes:
       logo: small
       smooth-scroll: true
       footnotes-hover: true
-      repo-actions: [edit, source, true] # this does not seem to have an effect?
+      repo-actions: [edit, source, issue] # only works in conjunction with a repo-url being set
       grid:
         sidebar-width: 300px
       # include footer here?
