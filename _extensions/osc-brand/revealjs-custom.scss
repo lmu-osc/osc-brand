@@ -9,17 +9,22 @@
 // $presentation-heading-font: $font-family-sans-serif;
 // $presentation-heading-color: $body-color;
 
+
+
+/*-- scss:rules --*/
+
+
 // Colors
 $text-muted: lighten($body-color, 50%);
 $link-color-hover: lighten($link-color, 15%);
 $selection-bg: lighten($link-color, 25%);
 $selection-color: $body-bg;
-$light-bg-text-color: #222;
-$light-bg-link-color: #2a76dd;
-$light-bg-code-color: #4758ab;
-$dark-bg-text-color: #fff;
-$dark-bg-link-color: #42affa;
-$dark-bg-code-color: #ffa07a;
+$light-bg-text-color: $brand-lmu-black;
+$light-bg-link-color: $brand-lmu-blue;
+$light-bg-code-color: $brand-lmu-orange;
+$dark-bg-text-color: $brand-lmu-white;
+$dark-bg-link-color: $brand-lmu-cyan;
+$dark-bg-code-color: $brand-lmu-orange;
 
 // Fonts
 $presentation-font-size-root: 40px;
@@ -70,4 +75,4 @@ $callout-color-caution: #fd7e14;
 $callout-color-warning: #ffc107;
 $callout-color-important: #dc3545;
 
-/*-- scss:rules --*/
+
