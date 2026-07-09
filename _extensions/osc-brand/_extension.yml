@@ -14,3 +14,5 @@ contributes:
       theme:
         light: [flatly, brand, lmu-osc-custom.scss]
         dark: [darkly, brand, lmu-osc-custom.scss]
+    revealjs:
+      theme: [default, brand, revealjs-custom.scss]
