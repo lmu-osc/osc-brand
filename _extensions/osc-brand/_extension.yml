@@ -15,4 +15,6 @@ contributes:
         light: [flatly, brand, lmu-osc-custom.scss]
         dark: [darkly, brand, lmu-osc-custom.scss]
     revealjs:
-      theme: [default, brand, revealjs-custom.scss]
+      # Confusingly, have to be put brand after the scss
+      # file to make the scss:defaults available?
+      theme: [default, revealjs-custom.scss, brand]
