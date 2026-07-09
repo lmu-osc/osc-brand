@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21274133.svg)](https://doi.org/10.5281/zenodo.21274133)
+
 # Osc-brand Extension For Quarto
 
 This\ extension is intended to be applied to our Quarto projects where we want to apply consistent LMU Open Science Center styling, images, and branding. This extension thus makes use of Quarto's developing `_brand.yml` feature with LMU colors, OSC logos, and some custom typography. The presets in this `_brand.yml` file are then principally applied to any type of Quarto output where the fields are applicable or usable.

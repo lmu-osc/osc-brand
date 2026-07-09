@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: >-
   If you use this extension in your work, please cite it
   using the metadata below.
-title: osc-brand
+title: LMU Open Science Center Brand Quarto Extension
 abstract: >-
   Quarto brand extension providing LMU Open Science Center
   colors, logos, typography, and a custom HTML format for
@@ -12,10 +12,11 @@ authors:
     given-names: Patrick
     affiliation: LMU Open Science Center
     orcid: https://orcid.org/0000-0003-1769-7580
-version: 1.0.0
-date-released: 2026-07-06
+version: 1.0.1
+date-released: 2026-07-09
 repository-code: https://github.com/lmu-osc/osc-brand
 license: MIT
+doi: 10.5281/zenodo.21274132
 keywords:
   - quarto
   - quarto-extension
