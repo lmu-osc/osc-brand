@@ -3,7 +3,6 @@
 // handled by brand.yml--included here just for completeness and original default values
 // $body-bg: #fff;
 // $body-color: #222;
-// $link-color: #2a76dd;
 // $font-family-sans-serif: "Source Sans Pro", Helvetica, sans-serif;
 // $font-family-monospace: monospace;
 // $presentation-heading-font: $font-family-sans-serif;
@@ -11,10 +10,8 @@
 
 
 
-/*-- scss:rules --*/
-
-
 // Colors
+$link-color: $brand-lmu-orange; // only use until a final link.color is set in brand.yml
 $text-muted: lighten($body-color, 50%);
 $link-color-hover: lighten($link-color, 15%);
 $selection-bg: lighten($link-color, 25%);
@@ -48,9 +45,10 @@ $code-block-bg: $body-bg;
 $code-block-border-color: lighten($body-color, 60%);
 $code-block-font-size: 0.55em;
 
-// Inline code
-$code-color: var(--quarto-hl-fu-color);
-$code-bg: transparent;
+// // Inline code
+// // I don't really care for these presets
+// $code-color: var(--quarto-hl-fu-color);
+// $code-bg: transparent;
 
 // Tabsets
 $tabset-border-color: $code-block-border-color;
@@ -75,4 +73,5 @@ $callout-color-caution: #fd7e14;
 $callout-color-warning: #ffc107;
 $callout-color-important: #dc3545;
 
+/*-- scss:rules --*/
 
