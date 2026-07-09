@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "osc-brand Quarto Extension",
     "section": "",
-    "text": "This extension (or possibly later extensions in a single repo) is intended to centralize and simplify the branding and templating we use for our Quarto-based projects.\nCurrently, just our tutorials and our core branding is targeted. Ideally, we will later expand to slides, PowerPoints, and other templates.\nThe current extension makes osc-brand-html and osc-brand-html+tutorial formats available. They are quite similar except the second is more specific to our website needs for our tutorials."
+    "text": "This extension (or possibly later extensions in a single repo) is intended to centralize and simplify the branding and templating we use for our Quarto-based projects.\nCurrently, just our tutorials and our core branding is targeted. Ideally, we will later expand to slides, PowerPoints, and other templates.\nThe current extension makes osc-brand-html format available as well as a brand.yml file."
   },
   {
     "objectID": "LICENSE.html",
