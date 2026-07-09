@@ -142,8 +142,8 @@ Brand images can be accessed with the `{{</* brand logo NAME */>}}` shortcode. A
 
 #### Favicon
 
-```markdown
-{{</* brand logo small */>}}
+```{.default shortcodes="false"}
+{{< brand logo small >}}
 ```
 
 {{< brand logo small >}}
@@ -152,8 +152,8 @@ Brand images can be accessed with the `{{</* brand logo NAME */>}}` shortcode. A
 
 ##### Medium
 
-```markdown
-{{</* brand logo medium */>}}
+```{.default shortcodes="false"}
+{{< brand logo medium >}}
 ```
 
 {{< brand logo medium >}}
@@ -164,8 +164,8 @@ Note that if you switch to dark mode, the "LMU Open Science Center" text switche
 
 The large logo is essentially the same, but without a dark mode option available at this time.
 
-```markdown
-{{</* brand logo large */>}}
+```{.default shortcodes="false"}
+{{< brand logo large >}}
 ```
 
 {{< brand logo large >}}

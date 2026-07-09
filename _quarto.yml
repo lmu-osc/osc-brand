@@ -5,7 +5,5 @@ project:
 website:
   navbar:
     left:
-      - href: example-osc-base.qmd
-        text: Brand
-      - href: example-osc-tutorial.qmd
-        text: Tutorial
+      - href: template.qmd
+        text: Brand Template
