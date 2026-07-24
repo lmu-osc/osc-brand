@@ -1,0 +1,163 @@
+---
+title: "OSC Brand — revealjs Demo"
+subtitle: "brand.yml SCSS variables in action"
+author: "LMU Open Science Center"
+format: osc-brand-revealjs
+---
+
+## Palette Colors
+
+The brand palette defines 12 colors in `brand.yml`. These are available as SCSS variables with a `$brand-` prefix.
+
+| SCSS variable | Hex value |
+|---|---|
+| `$brand-lmu-green` | `#00883A` |
+| `$brand-lmu-black` | `#232323` |
+| `$brand-lmu-white` | `#FFF` |
+| `$brand-lmu-darkgrey` / `$brand-lmu-darkgray` | `#626468` |
+| `$brand-lmu-middlegrey` / `$brand-lmu-middlegray` | `#C0C1C3` |
+| `$brand-lmu-lightgrey` / `$brand-lmu-lightgray` | `#E6E6E7` |
+| `$brand-lmu-lichtgrau` | `#F5F5F5` |
+| `$brand-lmu-blue` | `#0F1987` |
+| `$brand-lmu-cyan` | `#009FE3` |
+| `$brand-lmu-violet` | `#8C4091` |
+| `$brand-lmu-red` | `#D71919` |
+| `$brand-lmu-orange` | `#F18700` |
+
+---
+
+## Semantic Colors
+
+Brand roles `primary`, `secondary`, `tertiary`, `success`, `info`, `warning`, and `danger` are mapped from palette entries. These feed into Bootstrap classes and Quarto components.
+
+<span class="badge text-bg-primary">primary</span>
+<span class="badge text-bg-secondary">secondary</span>
+<span class="badge text-bg-tertiary">tertiary</span>
+<span class="badge text-bg-success">success</span>
+<span class="badge text-bg-info">info</span>
+<span class="badge text-bg-warning">warning</span>
+<span class="badge text-bg-danger">danger</span>
+
+Buttons also pick up these roles:
+
+<button type="button" class="btn btn-primary btn-sm">Primary</button>
+<button type="button" class="btn btn-secondary btn-sm">Secondary</button>
+<button type="button" class="btn btn-success btn-sm">Success</button>
+<button type="button" class="btn btn-info btn-sm">Info</button>
+<button type="button" class="btn btn-warning btn-sm">Warning</button>
+<button type="button" class="btn btn-danger btn-sm">Danger</button>
+
+These correspond to `$brand-primary`, `$brand-secondary`, etc.
+
+---
+
+## Typography
+
+The brand uses **Roboto** (headings and body) and **Fira Code** (monospace).
+
+### Heading level 1
+
+#### Heading level 2
+
+##### Heading level 3
+
+###### Heading level 4
+
+Body text uses the brand's base font family at the configured size and line height. The body color is set from `$brand-lmu-black` via `$body-color`.
+
+Monospace text like `Fira Code` is used for inline code. A monospace block font stack is also configured.
+
+The typography section of `brand.yml` controls `$font-family-sans-serif`, `$font-family-monospace`, and heading-specific variables like `$presentation-heading-font-weight`, `$presentation-heading-text-transform`, and heading sizes.
+
+---
+
+## Code Blocks
+
+Code blocks are styled by variables like `$code-block-bg`, `$code-block-border-color`, and `$code-block-font-size`.
+
+```r
+library(tidyverse)
+
+starwars |>
+  filter(homeworld == "Tatooine") |>
+  ggplot(aes(x = height, y = mass)) +
+  geom_point()
+```
+
+Inline code — like `dplyr::filter()` — uses `$code-color` and `$code-bg` for styling.
+
+---
+
+## Callouts
+
+Quarto callouts use the brand's semantic colors via `$callout-color-note`, `$callout-color-tip`, `$callout-color-caution`, `$callout-color-warning`, and `$callout-color-important`.
+
+::: {.callout-note}
+A note callout using the brand's info color (`$brand-cyan`).
+:::
+
+::: {.callout-tip}
+A tip callout using the brand's success color (`$brand-green`).
+:::
+
+::: {.callout-caution}
+A caution callout using the brand's warning color (`$brand-orange`).
+:::
+
+::: {.callout-warning}
+A warning callout.
+:::
+
+::: {.callout-important}
+An important callout using the brand's danger color (`$brand-red`).
+:::
+
+---
+
+## Links & Selection
+
+Here is a [link to example.com](https://example.com) styled with `$link-color`.
+
+Select some of this text to see the `$selection-bg` and `$selection-color` styling applied to highlighted content.
+
+Also notice that muted text, like this sentence, uses `$text-muted`.
+
+---
+
+## Brand Logo
+
+The brand logo can be included via the `{{</* brand logo */>}}` shortcode.
+
+{{< brand logo small >}} {{< brand logo medium >}}
+
+The medium logo switches between light and dark variants depending on the slide background mode.
+
+---
+
+## Variable Reference
+
+These SCSS variables are set in `revealjs-custom.scss` and control presentation appearance:
+
+| Variable | Controls |
+|---|---|
+| `$body-color` | Default text color |
+| `$link-color` | Link color |
+| `$text-muted` | Muted/secondary text |
+| `$link-color-hover` | Link hover state |
+| `$selection-bg` | Text selection highlight |
+| `$selection-color` | Text selection text |
+| `$light-bg-text-color` | Text on light slides |
+| `$light-bg-link-color` | Links on light slides |
+| `$light-bg-code-color` | Code on light slides |
+| `$dark-bg-text-color` | Text on dark slides |
+| `$dark-bg-link-color` | Links on dark slides |
+| `$dark-bg-code-color` | Code on dark slides |
+| `$presentation-font-size-root` | Base font size |
+| `$presentation-h1/2/3/4-font-size` | Heading sizes |
+| `$presentation-heading-font-weight` | Heading weight |
+| `$presentation-heading-text-transform` | Heading case |
+| `$code-block-bg` | Code block background |
+| `$code-block-border-color` | Code block border |
+| `$code-block-font-size` | Code block font size |
+| `$code-color` / `$code-bg` | Inline code styling |
+| `$callout-color-*` | Callout accent colors |
