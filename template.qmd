@@ -1,6 +1,8 @@
 ---
 title: LMU Open Science Center Brand Examples
-format: osc-brand-html
+format: 
+  osc-brand-html: default
+  osc-brand-pptx: default
 code-tools: true
 code-overflow: wrap
 ---
