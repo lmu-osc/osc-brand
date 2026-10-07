@@ -106,7 +106,7 @@ typography:
     # weight:
   monospace-inline:
     family: "Fira Code"
-    # color:
+    color: danger
     # background-color:
   monospace-block:
     family: "Fira Code"
@@ -115,6 +115,6 @@ typography:
     # background-color:
   # link:
   #   weight:
-  #   color:
+  #   color: warning
   #   background-color:
   #   decoration:

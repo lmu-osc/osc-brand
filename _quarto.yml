@@ -7,3 +7,5 @@ website:
     left:
       - href: template.qmd
         text: Brand Template
+      - href: revealjs-example.qmd
+        text: Custom RevealJS
